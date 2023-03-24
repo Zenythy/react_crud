@@ -1,0 +1,34 @@
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.user {
+
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: burlywood;
+      
+}
+
+.user-header th {
+
+  color: aliceblue;
+     
+}
+
+.user-table {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #fff;
+
+}
+  
+button {
+
+  margin: 5px;
+
+}
