@@ -5,30 +5,26 @@
 
 }
 
+.tabela {
 
-.user {
-
-  margin: 0.5rem;
-  padding: 0.5rem;
-  color: burlywood;
-      
-}
-
-.user-header th {
-
-  color: aliceblue;
-     
-}
-
-.user-table {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  border-bottom: 1px solid #fff;
-
-}
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid burlywood;
+  width: 750px;
   
-button {
-
-  margin: 5px;
 
 }
+
+.tabela div th {
+
+  padding: 0px 5px;
+
+}
+
+.botoes button {
+
+  margin: 10px;
+  padding: 5px 10px;
+
+}
+

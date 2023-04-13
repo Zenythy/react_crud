@@ -8,8 +8,38 @@ function Post () {
 
     return(
 
-        <div>
-            <h1>Post</h1>
+        <div className="novo-usuario">
+            <div>
+            <h1>Criar um novo usuario</h1>
+            <p>Séra criado um usuario com os seguintes dados</p>
+            </div>
+
+                <div className="dados-usuario">
+                    <div>
+                        <p>email:laura@gmail.com,</p>
+                        <p>username:laurinha,</p>
+                    </div>
+
+                    <div>
+                        <p>password:z45rmF$</p>
+                        <p>firstname:laura</p>
+                        <p>lastname:blue</p>
+                    </div>
+
+                    <div>
+                        <p>city:São Paulo,</p>
+                        <p>street:591 new road, 7</p>
+                        <p>zipcode:92926-3874</p>
+                    </div>
+
+                    <div>    
+                        <p>geolocation: lat: -37.3149, long: 86.1496</p>    
+                        <p>phone: 1-777-236-7033</p>
+                    </div>
+                </div>   
+            
+            <button onClick={() => createUser()}>Criar Usuario</button>
+
         </div>
 
 
@@ -28,24 +58,24 @@ function createUser() {
     const user = {
 
         
-            email:'John@gmail.com',
-            username:'johnd',
-            password:'m38rmF$',
+            email:'laura@gmail.com',
+            username:'laurinha',
+            password:'z45rmF$',
             name:{
-                firstname:'John',
-                lastname:'Doe'
+                firstname:'Laura',
+                lastname:'Blue'
             },
             address:{
-                city:'kilcoole',
-                street:'7835 new road',
-                number:3,
-                zipcode:'12926-3874',
+                city:'São Paulo',
+                street:'591 new road',
+                number:7,
+                zipcode:'92926-3874',
                 geolocation:{
-                    lat:'-37.3159',
-                    long:'81.1496'
+                    lat:'-37.3149',
+                    long:'86.1496'
                 }
             },
-            phone:'1-570-236-7033'
+            phone:'1-777-236-7033'
         
 
     }

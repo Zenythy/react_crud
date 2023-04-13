@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+#instalar o node js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+Site oficial https://nodejs.org/en
+
+# Requisições da API
+
+As requisições da api foram feitas com axios
+
+# Retorno da API
+
+Já no browser e o programa rodando, apertar f12.
+Vai abrir a aba de ferramentas do desenvolvedor, click na aba console
+Use o programa normalmente
+A aba console ira mostrar o retorno da API
+
 
 ## Available Scripts
 
