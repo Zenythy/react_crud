@@ -1,7 +1,7 @@
 # Sobre
 
-O sistema consome dados da API: https://fakestoreapi.com/docs
-Entre as funcionalidades do sistema estão: Consulta, Atualização, cadastro e exclusão do usuario 
+O sistema consome dados da API:  https://fakestoreapi.com/docs
+ Entre as funcionalidades do sistema estão: Consulta, Atualização, cadastro e exclusão do usuario 
 
 # Requisitos
 
