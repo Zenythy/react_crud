@@ -7,18 +7,24 @@ O sistema consome dados da API:  https://fakestoreapi.com/docs
 
 instalar o node js: https://nodejs.org/en 
 
+## Comandos principais
+
+No diretório do projeto, você pode executar:
+
+### `npm install`
+
+Baixar as dependencias do projeto
+
+### `npm start`
+
+Executar o projeto
+
 # Testando o sistema
 
 Já no browser e o programa sendo executado, apertar f12.
 Vai abrir a aba de ferramentas do desenvolvedor, click na aba console
 Use o programa normalmente
 A aba console ira mostrar o retorno da API
-
-## Comandos principais
-
-No diretório do projeto, você pode executar:
-
-### `npm start`
 
 Executa o aplicativo no modo de desenvolvimento.\
 Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
